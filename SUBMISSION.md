@@ -19,7 +19,7 @@ The first argument is the Alt-text for the image. The second argument is the pat
 - [15 pts] A screen capture showing a successful build using the Ant+Ivy script.
 ![Screen Capture #3](images/ivy+ant.png)
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Ant+Ivy build.
-![Screen Capture #4](images/ivy+ant.png)
+![Screen Capture #4](images/ant-build.png)
 - [10 pts] Links to the complete and correct [hello-world/build.xml](hello-world/build.xml) and [hello-world/ivy.xml](hello-world/ivy.xml) files.
 
 # Maven [30 pts]
@@ -28,7 +28,7 @@ The first argument is the Alt-text for the image. The second argument is the pat
 - [10 pts] A screen capture showing a successful build using the Maven script.
 ![Screen Capture #6](images/maven-jar.png)
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Maven build.
-![Screen Capture #7](images/maven-clean.png)
+![Screen Capture #7](images/build-jar.png)
 - [10 pts] Links to the complete and correct [hello-world/pom.xml](hello-world/pom.xml) file.
 
 # Gradle [30 pts]
@@ -37,5 +37,5 @@ The first argument is the Alt-text for the image. The second argument is the pat
 - [10 pts] A screen capture showing a successful build using the Gradle script.
 ![Screen Capture #9](images/gradle-version.png)
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Gradle build.
-![Screen Capture #10](images/gradle-version.png)
+![Screen Capture #10](images/java-jar.png)
 - [10 pts] Links to the complete and correct [hello-world/build.gradle](hello-world/build.gradle) file.
