@@ -1,11 +1,16 @@
 <ivy-module version="2.0">
     <info organisation="edu.depaul.cdm.se441" module="hello-world"/>
+
+
 	<!--
 	TODO: Define two configurations: 'compile' and 'test'. The 'compile'
 	configuration should have public visibility while the 'test'
 	configuration should be private.
 	-->
 	<configurations>
+		<conf name = "compile" visibility = "public"/>
+		<conf name = "test" visibility = "private" />
+
 	</configurations>
 	
 	<!--
@@ -23,6 +28,15 @@
 	as the Maven artifactId, and rev is the same as the Maven
 	version.
 	-->	
-    <dependencies defaultconf="compile">
+    <dependencies defaultconf ="compile,test">
+		<dependency conf = "compile->default" org = "log4j"
+			name = "log4j" rev = "1.2.17" /> 
+		<dependency conf = "test->default" org = "junit"
+			name = "junit" rev = "4.12" /> 
     </dependencies>
+
+	<!-- <dependencies defaultconf = "test">
+			<dependency conf = "test->default" org = "junit"
+			name = "junit" rev = "4.12.0" /> 
+	</dependencies> -->
 </ivy-module>
